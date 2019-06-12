@@ -1,0 +1,20 @@
+body {
+  background: black;
+  color: gray;
+}
+
+button {
+  background: blue;
+  color: red;
+  border: 2px solid orange;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.but {
+  color: red;
+  text-decoration: underline;
+  cursor: not-allowed;
+}

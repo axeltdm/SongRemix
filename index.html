@@ -1,27 +1,44 @@
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       <title>Remixes</title>
-   </head>
-   <body>
-        <a href="sman1.html">Spider-Man Into The Spider-Verse</a>
-       <div>
-<h5>Submit your own!</h5>
-    <form action="/submit-remix">
-        <label><input type="radio" name="indoor-outdoor" checked> Remix</label>
-        <label><input type="radio" name="indoor-outdoor"> Original Song</label><br>
-        <label><input type="checkbox" name="personality" checked> Finished</label>
-        <label><input type="checkbox" name="personality"> WIP</label>
-        <label><input type="checkbox" name="personality"> Planned</label><br>
-        <label><input type="checkbox" name="personality"> Album</label>
-        <input type="text" placeholder="remix/song URL" required>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Remixes</title>
+  </head>
+  <body>
+    <a href="sman1.html">Spider-Man Into The Spider-Verse</a>
+    <div>
+      <h5>Submit your own!</h5>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        action="/success.html"
+      >
+        <label
+          ><input type="radio" name="indoor-outdoor" checked /> Remix</label
+        >
+        <label><input type="radio" name="indoor-outdoor" /> New Song</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" checked /> Finished</label
+        >
+        <label><input type="checkbox" name="personality" /> WIP</label>
+
+        <label><input type="checkbox" name="personality" /> Planned</label
+        ><br />
+        <label
+          ><input type="checkbox" name="personality" /> Album (plz use
+          folder)</label
+        >
+        <input type="text" placeholder="the URL" required />
+        <input type="text" placeholder="email please" required />
         <button type="submit">Submit</button>
-        <i>Dropbox or or Google Drive</i>
+        <i>Dropbox or Google Drive</i>
       </form>
-    <i>Not done? use dummy.html as the link</i>
-      </div>
-   </body>
-   </html>
+      <i>Not done? use dummy.html as the link</i>
+    </div>
+  </body>
+</html>
